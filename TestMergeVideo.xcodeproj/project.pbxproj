@@ -21,6 +21,12 @@
 		4063D0F819AAD3C700CF985B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4063D0DA19AAD3C700CF985B /* UIKit.framework */; };
 		4063D10019AAD3C700CF985B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4063D0FE19AAD3C700CF985B /* InfoPlist.strings */; };
 		4063D10219AAD3C700CF985B /* TestMergeVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063D10119AAD3C700CF985B /* TestMergeVideoTests.m */; };
+		407723AB19AAF00B00CE840F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407723AA19AAF00B00CE840F /* AssetsLibrary.framework */; };
+		407723AD19AAF01200CE840F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407723AC19AAF01200CE840F /* CoreMedia.framework */; };
+		407723AF19AAF01800CE840F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407723AE19AAF01800CE840F /* MobileCoreServices.framework */; };
+		407723B119AAF01F00CE840F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407723B019AAF01F00CE840F /* MediaPlayer.framework */; };
+		407723B319AAF02D00CE840F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407723B219AAF02D00CE840F /* AVFoundation.framework */; };
+		407723B519AAF42F00CE840F /* rain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 407723B419AAF42F00CE840F /* rain.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		4063D0FD19AAD3C700CF985B /* TestMergeVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMergeVideoTests-Info.plist"; sourceTree = "<group>"; };
 		4063D0FF19AAD3C700CF985B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4063D10119AAD3C700CF985B /* TestMergeVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMergeVideoTests.m; sourceTree = "<group>"; };
+		407723AA19AAF00B00CE840F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		407723AC19AAF01200CE840F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		407723AE19AAF01800CE840F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		407723B019AAF01F00CE840F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		407723B219AAF02D00CE840F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		407723B419AAF42F00CE840F /* rain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407723B319AAF02D00CE840F /* AVFoundation.framework in Frameworks */,
+				407723B119AAF01F00CE840F /* MediaPlayer.framework in Frameworks */,
+				407723AF19AAF01800CE840F /* MobileCoreServices.framework in Frameworks */,
+				407723AD19AAF01200CE840F /* CoreMedia.framework in Frameworks */,
+				407723AB19AAF00B00CE840F /* AssetsLibrary.framework in Frameworks */,
 				4063D0D919AAD3C700CF985B /* CoreGraphics.framework in Frameworks */,
 				4063D0DB19AAD3C700CF985B /* UIKit.framework in Frameworks */,
 				4063D0D719AAD3C700CF985B /* Foundation.framework in Frameworks */,
@@ -82,6 +99,7 @@
 		4063D0CA19AAD3C700CF985B = {
 			isa = PBXGroup;
 			children = (
+				407723B419AAF42F00CE840F /* rain.mp4 */,
 				4063D0DC19AAD3C700CF985B /* TestMergeVideo */,
 				4063D0FB19AAD3C700CF985B /* TestMergeVideoTests */,
 				4063D0D519AAD3C700CF985B /* Frameworks */,
@@ -101,6 +119,11 @@
 		4063D0D519AAD3C700CF985B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				407723B219AAF02D00CE840F /* AVFoundation.framework */,
+				407723B019AAF01F00CE840F /* MediaPlayer.framework */,
+				407723AE19AAF01800CE840F /* MobileCoreServices.framework */,
+				407723AC19AAF01200CE840F /* CoreMedia.framework */,
+				407723AA19AAF00B00CE840F /* AssetsLibrary.framework */,
 				4063D0D619AAD3C700CF985B /* Foundation.framework */,
 				4063D0D819AAD3C700CF985B /* CoreGraphics.framework */,
 				4063D0DA19AAD3C700CF985B /* UIKit.framework */,
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4063D0EF19AAD3C700CF985B /* Images.xcassets in Resources */,
+				407723B519AAF42F00CE840F /* rain.mp4 in Resources */,
 				4063D0E119AAD3C700CF985B /* InfoPlist.strings in Resources */,
 				4063D0EA19AAD3C700CF985B /* Main.storyboard in Resources */,
 			);
@@ -380,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMergeVideo/TestMergeVideo-Prefix.pch";
 				INFOPLIST_FILE = "TestMergeVideo/TestMergeVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMergeVideo/TestMergeVideo-Prefix.pch";
 				INFOPLIST_FILE = "TestMergeVideo/TestMergeVideo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +483,7 @@
 				4063D10719AAD3C700CF985B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4063D10819AAD3C700CF985B /* Build configuration list for PBXNativeTarget "TestMergeVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +492,7 @@
 				4063D10A19AAD3C700CF985B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
